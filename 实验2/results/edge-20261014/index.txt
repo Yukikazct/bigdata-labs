@@ -1,0 +1,5 @@
+data	<document01.txt,4>;<document02.txt,1>;<total,5>.
+hadoop	<document01.txt,2>;<total,2>.
+index	<document01.txt,1>;<document02.txt,2>;<total,3>.
+mapreduce	<document01.txt,1>;<total,1>.
+search	<document01.txt,1>;<document02.txt,2>;<total,3>.

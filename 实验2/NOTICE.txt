@@ -1,0 +1,7 @@
+Input documents are text extracts from Apache Hadoop 3.3.6 documentation.
+Copyright The Apache Software Foundation.
+Source: https://hadoop.apache.org/docs/r3.3.6/
+Each document's exact source URL is recorded in sources.json.
+The documentation text was extracted from HTML into UTF-8 plain text for this course experiment.
+Original documentation is distributed under the Apache License, Version 2.0.
+See DATA_LICENSE.txt.

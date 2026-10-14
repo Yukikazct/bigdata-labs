@@ -1,0 +1,63 @@
+{
+  "documents": [
+    {
+      "document": "document01.txt",
+      "raw_tokens": 10,
+      "indexed_tokens": 9,
+      "unique_terms": 5
+    },
+    {
+      "document": "document02.txt",
+      "raw_tokens": 5,
+      "indexed_tokens": 5,
+      "unique_terms": 3
+    },
+    {
+      "document": "document03.txt",
+      "raw_tokens": 5,
+      "indexed_tokens": 0,
+      "unique_terms": 0
+    },
+    {
+      "document": "document04.txt",
+      "raw_tokens": 0,
+      "indexed_tokens": 0,
+      "unique_terms": 0
+    }
+  ],
+  "document_count": 4,
+  "stopword_count": 139,
+  "raw_tokens": 20,
+  "removed_tokens": 6,
+  "indexed_tokens": 14,
+  "unique_terms": 5,
+  "posting_count": 8,
+  "verified": true,
+  "top_terms": [
+    {
+      "word": "data",
+      "total": 5,
+      "document_frequency": 2
+    },
+    {
+      "word": "index",
+      "total": 3,
+      "document_frequency": 2
+    },
+    {
+      "word": "search",
+      "total": 3,
+      "document_frequency": 2
+    },
+    {
+      "word": "hadoop",
+      "total": 2,
+      "document_frequency": 1
+    },
+    {
+      "word": "mapreduce",
+      "total": 1,
+      "document_frequency": 1
+    }
+  ]
+}

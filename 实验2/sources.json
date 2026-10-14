@@ -1,0 +1,110 @@
+[
+  {
+    "document": "document01.txt",
+    "title": "Single Cluster Setup",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-project-dist/hadoop-common/SingleCluster.html",
+    "downloaded_at_utc": "2026-10-14T02:28:06+00:00",
+    "sha256": "68fcca71897d782a73e69454ebe6c51236552cd2be454cca0524ee1cb64a26dd",
+    "bytes": 6236,
+    "raw_tokens": 942
+  },
+  {
+    "document": "document02.txt",
+    "title": "Cluster Setup",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-project-dist/hadoop-common/ClusterSetup.html",
+    "downloaded_at_utc": "2026-10-14T02:28:06+00:00",
+    "sha256": "133945a129c0c57b2242230ef92309550f07b277fc2804cd8b9d1d7d494657ea",
+    "bytes": 19466,
+    "raw_tokens": 3044
+  },
+  {
+    "document": "document03.txt",
+    "title": "File System Shell",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-project-dist/hadoop-common/FileSystemShell.html",
+    "downloaded_at_utc": "2026-10-14T02:28:06+00:00",
+    "sha256": "deab25431070705734bc8a205ff49c34f3e59421f52f84580333af407b0eeabf",
+    "bytes": 37147,
+    "raw_tokens": 6014
+  },
+  {
+    "document": "document04.txt",
+    "title": "HDFS Architecture",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html",
+    "downloaded_at_utc": "2026-10-14T02:28:06+00:00",
+    "sha256": "65b708f1c2f5172623f9e773285567b0a696600ec194e42d246a7aa9fa38ec18",
+    "bytes": 26837,
+    "raw_tokens": 4401
+  },
+  {
+    "document": "document05.txt",
+    "title": "HDFS User Guide",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html",
+    "downloaded_at_utc": "2026-10-14T02:28:07+00:00",
+    "sha256": "d235e0878795a84210769c1eca2dcf572da6873db36e989d047a3a77875e61db",
+    "bytes": 23953,
+    "raw_tokens": 3855
+  },
+  {
+    "document": "document06.txt",
+    "title": "HDFS Permissions Guide",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-project-dist/hadoop-hdfs/HdfsPermissionsGuide.html",
+    "downloaded_at_utc": "2026-10-14T02:28:07+00:00",
+    "sha256": "977ef90e9634b00c6b41fae491a7be1715d744299364d8dffe08911f4b411774",
+    "bytes": 20246,
+    "raw_tokens": 3491
+  },
+  {
+    "document": "document07.txt",
+    "title": "MapReduce Tutorial",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html",
+    "downloaded_at_utc": "2026-10-14T02:28:07+00:00",
+    "sha256": "b795dca59ad163f45f7a9c5fec6a653b0630cad4549182e0dc4cdb2ad00906b7",
+    "bytes": 56871,
+    "raw_tokens": 8721
+  },
+  {
+    "document": "document08.txt",
+    "title": "Apache Hadoop YARN",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-yarn/hadoop-yarn-site/YARN.html",
+    "downloaded_at_utc": "2026-10-14T02:28:08+00:00",
+    "sha256": "444fb68f375296776851d82f237c15cec63f74671697e61c864eda955ec75fe7",
+    "bytes": 3384,
+    "raw_tokens": 494
+  },
+  {
+    "document": "document09.txt",
+    "title": "Capacity Scheduler",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-yarn/hadoop-yarn-site/CapacityScheduler.html",
+    "downloaded_at_utc": "2026-10-14T02:28:08+00:00",
+    "sha256": "01b6763724ec00b63632a2da8214be8c652750c33ee4e20625a74e733f018b6c",
+    "bytes": 53993,
+    "raw_tokens": 7955
+  },
+  {
+    "document": "document10.txt",
+    "title": "Fair Scheduler",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-yarn/hadoop-yarn-site/FairScheduler.html",
+    "downloaded_at_utc": "2026-10-14T02:28:08+00:00",
+    "sha256": "a3c473535e3310a33fa8b324afddbe0541f42ac7140c31b049706651683119af",
+    "bytes": 30837,
+    "raw_tokens": 4748
+  },
+  {
+    "document": "document11.txt",
+    "title": "Hadoop Archives",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-archives/HadoopArchives.html",
+    "downloaded_at_utc": "2026-10-14T02:28:08+00:00",
+    "sha256": "4b3023a2acc28cee2680071a2a3f720412809697b73d2a1565cde218d9dac397",
+    "bytes": 4731,
+    "raw_tokens": 840
+  },
+  {
+    "document": "document12.txt",
+    "title": "WebHDFS REST API",
+    "url": "https://hadoop.apache.org/docs/r3.3.6/hadoop-project-dist/hadoop-hdfs/WebHDFS.html",
+    "downloaded_at_utc": "2026-10-14T02:28:09+00:00",
+    "sha256": "7e66bdf2b88b14bf94167062f4c1f20a95704f12da44a9b85a7b5e21cff54acd",
+    "bytes": 73802,
+    "raw_tokens": 9535
+  }
+]

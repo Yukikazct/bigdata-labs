@@ -1,0 +1,3 @@
+The DATA data, hadoop!
+index search; DATA.
+MapReduce hadoop data.

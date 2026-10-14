@@ -1,0 +1,13 @@
+Found 12 items
+-rw-r--r--   1 yuki supergroup       6236 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document01.txt
+-rw-r--r--   1 yuki supergroup      19466 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document02.txt
+-rw-r--r--   1 yuki supergroup      37147 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document03.txt
+-rw-r--r--   1 yuki supergroup      26837 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document04.txt
+-rw-r--r--   1 yuki supergroup      23953 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document05.txt
+-rw-r--r--   1 yuki supergroup      20246 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document06.txt
+-rw-r--r--   1 yuki supergroup      56871 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document07.txt
+-rw-r--r--   1 yuki supergroup       3384 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document08.txt
+-rw-r--r--   1 yuki supergroup      53993 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document09.txt
+-rw-r--r--   1 yuki supergroup      30837 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document10.txt
+-rw-r--r--   1 yuki supergroup       4731 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document11.txt
+-rw-r--r--   1 yuki supergroup      73802 2026-10-14 02:29 /user/yuki/lab2/20261014-main/input/document12.txt

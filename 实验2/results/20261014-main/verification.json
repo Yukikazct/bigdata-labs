@@ -1,0 +1,186 @@
+{
+  "documents": [
+    {
+      "document": "document01.txt",
+      "raw_tokens": 942,
+      "indexed_tokens": 684,
+      "unique_terms": 249
+    },
+    {
+      "document": "document02.txt",
+      "raw_tokens": 3044,
+      "indexed_tokens": 2077,
+      "unique_terms": 559
+    },
+    {
+      "document": "document03.txt",
+      "raw_tokens": 6014,
+      "indexed_tokens": 4127,
+      "unique_terms": 855
+    },
+    {
+      "document": "document04.txt",
+      "raw_tokens": 4401,
+      "indexed_tokens": 2576,
+      "unique_terms": 869
+    },
+    {
+      "document": "document05.txt",
+      "raw_tokens": 3855,
+      "indexed_tokens": 2306,
+      "unique_terms": 713
+    },
+    {
+      "document": "document06.txt",
+      "raw_tokens": 3491,
+      "indexed_tokens": 2055,
+      "unique_terms": 541
+    },
+    {
+      "document": "document07.txt",
+      "raw_tokens": 8721,
+      "indexed_tokens": 5672,
+      "unique_terms": 1262
+    },
+    {
+      "document": "document08.txt",
+      "raw_tokens": 494,
+      "indexed_tokens": 288,
+      "unique_terms": 176
+    },
+    {
+      "document": "document09.txt",
+      "raw_tokens": 7955,
+      "indexed_tokens": 5161,
+      "unique_terms": 903
+    },
+    {
+      "document": "document10.txt",
+      "raw_tokens": 4748,
+      "indexed_tokens": 2791,
+      "unique_terms": 701
+    },
+    {
+      "document": "document11.txt",
+      "raw_tokens": 840,
+      "indexed_tokens": 510,
+      "unique_terms": 151
+    },
+    {
+      "document": "document12.txt",
+      "raw_tokens": 9535,
+      "indexed_tokens": 7545,
+      "unique_terms": 882
+    }
+  ],
+  "document_count": 12,
+  "stopword_count": 139,
+  "raw_tokens": 54040,
+  "removed_tokens": 18248,
+  "indexed_tokens": 35792,
+  "unique_terms": 3530,
+  "posting_count": 7861,
+  "verified": true,
+  "top_terms": [
+    {
+      "word": "hadoop",
+      "total": 582,
+      "document_frequency": 12
+    },
+    {
+      "word": "file",
+      "total": 518,
+      "document_frequency": 11
+    },
+    {
+      "word": "queue",
+      "total": 462,
+      "document_frequency": 4
+    },
+    {
+      "word": "user",
+      "total": 429,
+      "document_frequency": 11
+    },
+    {
+      "word": "value",
+      "total": 334,
+      "document_frequency": 10
+    },
+    {
+      "word": "hdfs",
+      "total": 328,
+      "document_frequency": 9
+    },
+    {
+      "word": "name",
+      "total": 324,
+      "document_frequency": 10
+    },
+    {
+      "word": "yarn",
+      "total": 299,
+      "document_frequency": 6
+    },
+    {
+      "word": "path",
+      "total": 286,
+      "document_frequency": 11
+    },
+    {
+      "word": "http",
+      "total": 278,
+      "document_frequency": 8
+    },
+    {
+      "word": "default",
+      "total": 270,
+      "document_frequency": 11
+    },
+    {
+      "word": "type",
+      "total": 257,
+      "document_frequency": 8
+    },
+    {
+      "word": "scheduler",
+      "total": 227,
+      "document_frequency": 5
+    },
+    {
+      "word": "see",
+      "total": 218,
+      "document_frequency": 11
+    },
+    {
+      "word": "namenode",
+      "total": 209,
+      "document_frequency": 6
+    },
+    {
+      "word": "files",
+      "total": 208,
+      "document_frequency": 10
+    },
+    {
+      "word": "job",
+      "total": 205,
+      "document_frequency": 6
+    },
+    {
+      "word": "set",
+      "total": 198,
+      "document_frequency": 10
+    },
+    {
+      "word": "description",
+      "total": 197,
+      "document_frequency": 6
+    },
+    {
+      "word": "directory",
+      "total": 192,
+      "document_frequency": 10
+    }
+  ]
+}
