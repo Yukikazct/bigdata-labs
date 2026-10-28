@@ -1,0 +1,7 @@
+{
+  "Java": "11",
+  "Hadoop": "3.3.6",
+  "HBase": "2.5.11-hadoop3",
+  "Spark": "3.5.3-bin-hadoop3",
+  "deployment": "single-node HDFS and YARN"
+}

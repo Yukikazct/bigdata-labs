@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
 code/build/
+runtime/
 .DS_Store
 ~$*

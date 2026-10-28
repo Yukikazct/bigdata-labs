@@ -1,16 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd "$(dirname "$0")"
-BASE=${LAB3_BASE:-$HOME/lab3-pagerank}
-export JAVA_HOME=${JAVA_HOME:-/usr/lib/jvm/java-11-openjdk-arm64}
-export HADOOP_HOME=${HADOOP_HOME:-/usr/local/hadoop}
-export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
-export SPARK_HOME=${SPARK_HOME:-$BASE/software/spark-3.5.3-bin-hadoop3}
-export PATH=$JAVA_HOME/bin:$HADOOP_HOME/bin:$PATH
+source ./common_env.sh
+BASE=$LAB3_BASE
 RUN=${1:-$(date +%Y%m%d-%H%M%S)}
-HDFS_ROOT=/user/yuki/lab3/runs/$RUN
+HDFS_ROOT=$LAB3_HDFS_BASE/runs/$RUN
 mkdir -p "$BASE/logs" "$BASE/results/$RUN/mr-iterations"
 printf '%s\n' "$HDFS_ROOT" > "$BASE/results/$RUN/hdfs-root.txt"
+printf '%s\n' "$RUN" > "$BASE/results/$RUN/run-id.txt"
 hdfs dfs -mkdir -p "$HDFS_ROOT/input"
 hdfs dfs -put data/graph.tsv "$HDFS_ROOT/input/graph.tsv"
 hadoop jar build/pagerank-mr.jar PageRankMR "$HDFS_ROOT/input" "$HDFS_ROOT/mr" 2>&1 | tee "$BASE/logs/mr-$RUN.log"

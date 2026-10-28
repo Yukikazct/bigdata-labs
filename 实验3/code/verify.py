@@ -119,7 +119,11 @@ def main():
     spark_history = json.loads((args.results / "spark-history.json").read_text())
     assert [x["iteration"] for x in spark_history] == list(range(1, 11))
     assert all(abs(x["rank_sum"] - 1) < 1e-12 and x["nodes"] == len(graph) for x in spark_history)
-    run_id = (args.results / "hdfs-root.txt").read_text().strip().rsplit("/", 1)[-1]
+    run_file = args.results / "run-id.txt"
+    if run_file.exists():
+        run_id = run_file.read_text().strip()
+    else:
+        run_id = (args.results / "hdfs-root.txt").read_text().strip().rsplit("/", 1)[-1]
     mr_log = (args.logs / f"mr-{run_id}.log").read_text()
     completed = re.findall(r"^COMPLETED (job_\S+) (\S+)$", mr_log, re.M)
     assert [name for job, name in completed] == ["lab3-graph", *[f"lab3-pagerank-{i}" for i in range(1, 11)], "lab3-format"]

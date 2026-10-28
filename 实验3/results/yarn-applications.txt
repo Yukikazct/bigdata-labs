@@ -1,17 +1,14 @@
-2026-10-28 02:27:24,213 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2026-10-28 02:27:24,235 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032
-Total number of applications (application-types: [], states: [FINISHED] and tags: []):13
-                Application-Id	    Application-Name	    Application-Type	      User	     Queue	             State	       Final-State	       Progress	                       Tracking-URL
-application_1793153640471_0001	          lab3-graph	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0001
-application_1793153640471_0002	     lab3-pagerank-1	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0002
-application_1793153640471_0003	     lab3-pagerank-2	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0003
-application_1793153640471_0004	     lab3-pagerank-3	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0004
-application_1793153640471_0005	     lab3-pagerank-4	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0005
-application_1793153640471_0006	     lab3-pagerank-5	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0006
-application_1793153640471_0007	     lab3-pagerank-6	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0007
-application_1793153640471_0008	     lab3-pagerank-7	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0008
-application_1793153640471_0009	     lab3-pagerank-8	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0009
-application_1793153640471_0010	     lab3-pagerank-9	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0010
-application_1793153640471_0011	    lab3-pagerank-10	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0011
-application_1793153640471_0012	         lab3-format	           MAPREDUCE	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	http://yuki:19888/jobhistory/job/job_1793153640471_0012
-application_1793153640471_0013	 lab3-pagerank-spark	               SPARK	      yuki	   default	          FINISHED	         SUCCEEDED	           100%	                                N/A
+Application-Id	Application-Name	Application-Type	State	Final-State	Progress
+application_1793153640471_0001	lab3-graph	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0002	lab3-pagerank-1	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0003	lab3-pagerank-2	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0004	lab3-pagerank-3	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0005	lab3-pagerank-4	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0006	lab3-pagerank-5	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0007	lab3-pagerank-6	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0008	lab3-pagerank-7	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0009	lab3-pagerank-8	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0010	lab3-pagerank-9	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0011	lab3-pagerank-10	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0012	lab3-format	MAPREDUCE	FINISHED	SUCCEEDED	100%
+application_1793153640471_0013	lab3-pagerank-spark	SPARK	FINISHED	SUCCEEDED	100%
