@@ -1,0 +1,20 @@
+{
+  "Student": [
+    {"S_No":"2015001","S_Name":"Zhangsan","S_Sex":"male","S_Age":"23"},
+    {"S_No":"2015003","S_Name":"Mary","S_Sex":"female","S_Age":"22"},
+    {"S_No":"2015003","S_Name":"Lisi","S_Sex":"male","S_Age":"24"}
+  ],
+  "Course": [
+    {"C_No":"123001","C_Name":"Math","C_Credit":"2.0"},
+    {"C_No":"123002","C_Name":"Computer Science","C_Credit":"5.0"},
+    {"C_No":"123003","C_Name":"English","C_Credit":"3.0"}
+  ],
+  "SC": [
+    {"SC_Sno":"2015001","SC_Cno":"123001","SC_Score":"86"},
+    {"SC_Sno":"2015001","SC_Cno":"123003","SC_Score":"69"},
+    {"SC_Sno":"2015002","SC_Cno":"123002","SC_Score":"77"},
+    {"SC_Sno":"2015002","SC_Cno":"123003","SC_Score":"99"},
+    {"SC_Sno":"2015003","SC_Cno":"123001","SC_Score":"98"},
+    {"SC_Sno":"2015003","SC_Cno":"123002","SC_Score":"95"}
+  ]
+}

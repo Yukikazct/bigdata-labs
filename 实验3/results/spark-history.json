@@ -1,0 +1,10 @@
+[{"iteration":1,"nodes":10,"dangling_input":0.30000000000000004,"rank_sum":1.0000000000000000},
+{"iteration":2,"nodes":10,"dangling_input":0.24900000000000003,"rank_sum":1.0000000000000000},
+{"iteration":3,"nodes":10,"dangling_input":0.26850750000000000,"rank_sum":1.0000000000000000},
+{"iteration":4,"nodes":10,"dangling_input":0.24185447500000000,"rank_sum":0.99999999999999990},
+{"iteration":5,"nodes":10,"dangling_input":0.23573656174999996,"rank_sum":0.99999999999999980},
+{"iteration":6,"nodes":10,"dangling_input":0.23946324266968744,"rank_sum":0.99999999999999980},
+{"iteration":7,"nodes":10,"dangling_input":0.23338234788441087,"rank_sum":0.99999999999999980},
+{"iteration":8,"nodes":10,"dangling_input":0.23216691511767220,"rank_sum":0.99999999999999980},
+{"iteration":9,"nodes":10,"dangling_input":0.23129874341048523,"rank_sum":0.99999999999999980},
+{"iteration":10,"nodes":10,"dangling_input":0.22948300619348183,"rank_sum":0.99999999999999980}]

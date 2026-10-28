@@ -1,0 +1,4 @@
+# Empty adjacency lists end in a required TAB; preserve raw Hadoop/Spark logs.
+*.tsv whitespace=-blank-at-eol
+*.log whitespace=-blank-at-eol
+evidence/environment.txt whitespace=-blank-at-eol

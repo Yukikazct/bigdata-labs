@@ -1,0 +1,119 @@
+2026-10-28T02:21:33,245 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-10-28T02:21:33,327 INFO  [main] Configuration.deprecation: hbase.client.pause.cqtbe is deprecated. Instead, use hbase.client.pause.server.overloaded
+2026-10-28T02:21:33,367 INFO  [main] common.X509Util: Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:zookeeper.version=3.8.4-9316c2a7a97e1666d8f4593f34dd6fc36ecc436c, built on 2024-02-12 22:16 UTC
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:host.name=yuki
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:java.version=11.0.32.1
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:java.vendor=Ubuntu
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:java.home=/usr/lib/jvm/java-11-openjdk-arm64
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: e/hbase-2.5.11-hadoop3/lib/jdk11/javax.activation-1.2.0.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/jaxb-runtime-2.3.1.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/jaxws-rt-2.3.7.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/management-api-3.2.3.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/mimepull-1.9.15.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/policy-2.7.10.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/saaj-impl-1.5.3.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/stax-ex-1.8.3.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/stax2-api-4.2.2.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/streambuffer-1.5.10.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/txw2-2.3.1.jar:/home/yuki/lab3-pagerank/software/hbase-2.5.11-hadoop3/lib/jdk11/woodstox-core-6.5.1.jar
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:java.library.path=/usr/java/packages/lib:/usr/lib/aarch64-linux-gnu/jni:/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:os.name=Linux
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:os.arch=aarch64
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:os.version=7.0.0-38-generic
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:user.name=yuki
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:user.home=/home/yuki
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:user.dir=/home/yuki
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:os.memory.free=58MB
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:os.memory.max=256MB
+2026-10-28T02:21:33,374 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Client environment:os.memory.total=100MB
+2026-10-28T02:21:33,376 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.ReadOnlyZKClient$$Lambda$124/0x00000001002a6c40@53a5bdea
+2026-10-28T02:21:33,378 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ClientCnxnSocket: jute.maxbuffer value is 1048575 Bytes
+2026-10-28T02:21:33,382 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de] zookeeper.ClientCnxn: zookeeper.request.timeout value is 0. feature enabled=false
+2026-10-28T02:21:33,385 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181.
+2026-10-28T02:21:33,385 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de-SendThread(localhost:2181)] zookeeper.ClientCnxn: SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2026-10-28T02:21:33,388 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established, initiating session, client: /127.0.0.1:58968, server: localhost/127.0.0.1:2181
+2026-10-28T02:21:33,390 INFO  [ReadOnlyZKClient-localhost:2181@0x0070d8de-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x1000006173a0002, negotiated timeout = 90000
+2026-10-28T02:21:34,787 INFO  [main] client.HBaseAdmin: Operation: CREATE, Table Name: default:lab3_java_Student, procId: 9 completed
+2026-10-28T02:21:37,002 INFO  [main] client.HBaseAdmin: Operation: CREATE, Table Name: default:lab3_java_Course, procId: 12 completed
+2026-10-28T02:21:37,661 INFO  [main] client.HBaseAdmin: Operation: CREATE, Table Name: default:lab3_java_SC, procId: 15 completed
+COUNT lab3_java_Student 3
+CHECK student_count_3 PASS
+COUNT lab3_java_Course 3
+CHECK course_count_3 PASS
+COUNT lab3_java_SC 6
+CHECK sc_count_6 PASS
+CHECK duplicate_id_preserved PASS
+CHECK orphan_sc_preserved PASS
+TABLE lab3_java_Course [info]
+TABLE lab3_java_SC [info]
+TABLE lab3_java_Student [info]
+DATA	Student	Lisi	info:S_Age	24
+DATA	Student	Lisi	info:S_Name	Lisi
+DATA	Student	Lisi	info:S_No	2015003
+DATA	Student	Lisi	info:S_Sex	male
+DATA	Student	Mary	info:S_Age	22
+DATA	Student	Mary	info:S_Name	Mary
+DATA	Student	Mary	info:S_No	2015003
+DATA	Student	Mary	info:S_Sex	female
+DATA	Student	Zhangsan	info:S_Age	23
+DATA	Student	Zhangsan	info:S_Name	Zhangsan
+DATA	Student	Zhangsan	info:S_No	2015001
+DATA	Student	Zhangsan	info:S_Sex	male
+DATA	Course	123001	info:C_Credit	2.0
+DATA	Course	123001	info:C_Name	Math
+DATA	Course	123001	info:C_No	123001
+DATA	Course	123002	info:C_Credit	5.0
+DATA	Course	123002	info:C_Name	Computer Science
+DATA	Course	123002	info:C_No	123002
+DATA	Course	123003	info:C_Credit	3.0
+DATA	Course	123003	info:C_Name	English
+DATA	Course	123003	info:C_No	123003
+DATA	SC	2015001_123001	info:SC_Cno	123001
+DATA	SC	2015001_123001	info:SC_Score	86
+DATA	SC	2015001_123001	info:SC_Sno	2015001
+DATA	SC	2015001_123003	info:SC_Cno	123003
+DATA	SC	2015001_123003	info:SC_Score	69
+DATA	SC	2015001_123003	info:SC_Sno	2015001
+DATA	SC	2015002_123002	info:SC_Cno	123002
+DATA	SC	2015002_123002	info:SC_Score	77
+DATA	SC	2015002_123002	info:SC_Sno	2015002
+DATA	SC	2015002_123003	info:SC_Cno	123003
+DATA	SC	2015002_123003	info:SC_Score	99
+DATA	SC	2015002_123003	info:SC_Sno	2015002
+DATA	SC	2015003_123001	info:SC_Cno	123001
+DATA	SC	2015003_123001	info:SC_Score	98
+DATA	SC	2015003_123001	info:SC_Sno	2015003
+DATA	SC	2015003_123002	info:SC_Cno	123002
+DATA	SC	2015003_123002	info:SC_Score	95
+DATA	SC	2015003_123002	info:SC_Sno	2015003
+2026-10-28T02:21:39,873 INFO  [main] client.HBaseAdmin: Operation: CREATE, Table Name: default:lab3_java_Scratch, procId: 18 completed
+COUNT lab3_java_Scratch 2
+CHECK scratch_count_2 PASS
+COLUMN Score Mary null
+COLUMN Score Zhangsan {Score:Computer Science=77, Score:English=69, Score:Math=86}
+CHECK family_three_qualifiers PASS
+CHECK missing_family_null PASS
+COLUMN Score:Math Mary null
+COLUMN Score:Math Zhangsan {Score:Math=86}
+CHECK single_qualifier_only PASS
+CHECK missing_column_null PASS
+CHECK modify_90 PASS
+CHECK delete_column PASS
+CHECK add_family PASS
+CHECK delete_family PASS
+COUNT lab3_java_Scratch 1
+CHECK delete_row PASS
+2026-10-28T02:21:42,608 INFO  [main] client.HBaseAdmin: Started disable of lab3_java_Scratch
+2026-10-28T02:21:42,922 INFO  [main] client.HBaseAdmin: Operation: DISABLE, Table Name: default:lab3_java_Scratch, procId: 31 completed
+2026-10-28T02:21:42,923 INFO  [main] client.HBaseAdmin: Started truncating lab3_java_Scratch
+2026-10-28T02:21:44,050 INFO  [main] client.HBaseAdmin: Operation: TRUNCATE, Table Name: default:lab3_java_Scratch, procId: 35 completed
+COUNT lab3_java_Scratch 0
+CHECK truncate_zero PASS
+2026-10-28T02:21:44,373 INFO  [main] client.HBaseAdmin: Started disable of lab3_java_Scratch
+2026-10-28T02:21:44,680 INFO  [main] client.HBaseAdmin: Operation: DISABLE, Table Name: default:lab3_java_Scratch, procId: 38 completed
+2026-10-28T02:21:44,793 INFO  [main] client.HBaseAdmin: Operation: DELETE, Table Name: default:lab3_java_Scratch, procId: 42 completed
+2026-10-28T02:21:46,921 INFO  [main] client.HBaseAdmin: Operation: CREATE, Table Name: default:lab3_java_Scratch, procId: 43 completed
+COUNT lab3_java_Scratch 0
+CHECK recreate_zero PASS
+CHECK truncate_keeps_schema PASS
+CHECK mismatched_arrays_rejected PASS
+New value: CHECK three_argument_modify PASS
+2026-10-28T02:21:46,952 INFO  [main] client.HBaseAdmin: Started disable of lab3_java_Scratch
+2026-10-28T02:21:47,266 INFO  [main] client.HBaseAdmin: Operation: DISABLE, Table Name: default:lab3_java_Scratch, procId: 46 completed
+2026-10-28T02:21:47,267 INFO  [main] client.HBaseAdmin: Started truncating lab3_java_Scratch
+2026-10-28T02:21:49,390 INFO  [main] client.HBaseAdmin: Operation: TRUNCATE, Table Name: default:lab3_java_Scratch, procId: 50 completed
+HBASE_JAVA_CHECKS 20 PASS
+2026-10-28T02:21:49,394 INFO  [main] client.ConnectionImplementation: Closing master protocol: MasterService

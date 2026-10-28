@@ -1,0 +1,349 @@
+hbase:001:0> disable 'lab3_shell_Student' if exists 'lab3_shell_Student'
+Table lab3_shell_Student does not exist
+Took 0.2047 seconds
+hbase:002:0> drop 'lab3_shell_Student' if exists 'lab3_shell_Student'
+Table lab3_shell_Student does not exist
+Took 0.0021 seconds
+hbase:003:0> create 'lab3_shell_Student', 'info'
+Created table lab3_shell_Student
+Took 1.1524 seconds
+=> Hbase::Table - lab3_shell_Student
+hbase:004:0> put 'lab3_shell_Student', 'Zhangsan', 'info:S_No', '2015001'
+Took 0.0533 seconds
+hbase:005:0> put 'lab3_shell_Student', 'Zhangsan', 'info:S_Name', 'Zhangsan'
+Took 0.0039 seconds
+hbase:006:0> put 'lab3_shell_Student', 'Zhangsan', 'info:S_Sex', 'male'
+Took 0.0017 seconds
+hbase:007:0> put 'lab3_shell_Student', 'Zhangsan', 'info:S_Age', '23'
+Took 0.0014 seconds
+hbase:008:0> put 'lab3_shell_Student', 'Mary', 'info:S_No', '2015003'
+Took 0.0017 seconds
+hbase:009:0> put 'lab3_shell_Student', 'Mary', 'info:S_Name', 'Mary'
+Took 0.0014 seconds
+hbase:010:0> put 'lab3_shell_Student', 'Mary', 'info:S_Sex', 'female'
+Took 0.0013 seconds
+hbase:011:0> put 'lab3_shell_Student', 'Mary', 'info:S_Age', '22'
+Took 0.0017 seconds
+hbase:012:0> put 'lab3_shell_Student', 'Lisi', 'info:S_No', '2015003'
+Took 0.0017 seconds
+hbase:013:0> put 'lab3_shell_Student', 'Lisi', 'info:S_Name', 'Lisi'
+Took 0.0022 seconds
+hbase:014:0> put 'lab3_shell_Student', 'Lisi', 'info:S_Sex', 'male'
+Took 0.0013 seconds
+hbase:015:0> put 'lab3_shell_Student', 'Lisi', 'info:S_Age', '24'
+Took 0.0073 seconds
+hbase:016:0> disable 'lab3_shell_Course' if exists 'lab3_shell_Course'
+Table lab3_shell_Course does not exist
+Took 0.0018 seconds
+hbase:017:0> drop 'lab3_shell_Course' if exists 'lab3_shell_Course'
+Table lab3_shell_Course does not exist
+Took 0.0018 seconds
+hbase:018:0> create 'lab3_shell_Course', 'info'
+Created table lab3_shell_Course
+Took 1.1313 seconds
+=> Hbase::Table - lab3_shell_Course
+hbase:019:0> put 'lab3_shell_Course', '123001', 'info:C_No', '123001'
+Took 0.0179 seconds
+hbase:020:0> put 'lab3_shell_Course', '123001', 'info:C_Name', 'Math'
+Took 0.0045 seconds
+hbase:021:0> put 'lab3_shell_Course', '123001', 'info:C_Credit', '2.0'
+Took 0.0029 seconds
+hbase:022:0> put 'lab3_shell_Course', '123002', 'info:C_No', '123002'
+Took 0.0032 seconds
+hbase:023:0> put 'lab3_shell_Course', '123002', 'info:C_Name', 'Computer Science'
+Took 0.0025 seconds
+hbase:024:0> put 'lab3_shell_Course', '123002', 'info:C_Credit', '5.0'
+Took 0.0026 seconds
+hbase:025:0> put 'lab3_shell_Course', '123003', 'info:C_No', '123003'
+Took 0.0019 seconds
+hbase:026:0> put 'lab3_shell_Course', '123003', 'info:C_Name', 'English'
+Took 0.0033 seconds
+hbase:027:0> put 'lab3_shell_Course', '123003', 'info:C_Credit', '3.0'
+Took 0.0019 seconds
+hbase:028:0> disable 'lab3_shell_SC' if exists 'lab3_shell_SC'
+Table lab3_shell_SC does not exist
+Took 0.0015 seconds
+hbase:029:0> drop 'lab3_shell_SC' if exists 'lab3_shell_SC'
+Table lab3_shell_SC does not exist
+Took 0.0013 seconds
+hbase:030:0> create 'lab3_shell_SC', 'info'
+Created table lab3_shell_SC
+Took 1.1240 seconds
+=> Hbase::Table - lab3_shell_SC
+hbase:031:0> put 'lab3_shell_SC', '2015001_123001', 'info:SC_Sno', '2015001'
+Took 0.0070 seconds
+hbase:032:0> put 'lab3_shell_SC', '2015001_123001', 'info:SC_Cno', '123001'
+Took 0.0021 seconds
+hbase:033:0> put 'lab3_shell_SC', '2015001_123001', 'info:SC_Score', '86'
+Took 0.0018 seconds
+hbase:034:0> put 'lab3_shell_SC', '2015001_123003', 'info:SC_Sno', '2015001'
+Took 0.0019 seconds
+hbase:035:0> put 'lab3_shell_SC', '2015001_123003', 'info:SC_Cno', '123003'
+Took 0.0019 seconds
+hbase:036:0> put 'lab3_shell_SC', '2015001_123003', 'info:SC_Score', '69'
+Took 0.0059 seconds
+hbase:037:0> put 'lab3_shell_SC', '2015002_123002', 'info:SC_Sno', '2015002'
+Took 0.0019 seconds
+hbase:038:0> put 'lab3_shell_SC', '2015002_123002', 'info:SC_Cno', '123002'
+Took 0.0025 seconds
+hbase:039:0> put 'lab3_shell_SC', '2015002_123002', 'info:SC_Score', '77'
+Took 0.0016 seconds
+hbase:040:0> put 'lab3_shell_SC', '2015002_123003', 'info:SC_Sno', '2015002'
+Took 0.0017 seconds
+hbase:041:0> put 'lab3_shell_SC', '2015002_123003', 'info:SC_Cno', '123003'
+Took 0.0024 seconds
+hbase:042:0> put 'lab3_shell_SC', '2015002_123003', 'info:SC_Score', '99'
+Took 0.0028 seconds
+hbase:043:0> put 'lab3_shell_SC', '2015003_123001', 'info:SC_Sno', '2015003'
+Took 0.0025 seconds
+hbase:044:0> put 'lab3_shell_SC', '2015003_123001', 'info:SC_Cno', '123001'
+Took 0.0035 seconds
+hbase:045:0> put 'lab3_shell_SC', '2015003_123001', 'info:SC_Score', '98'
+Took 0.0019 seconds
+hbase:046:0> put 'lab3_shell_SC', '2015003_123002', 'info:SC_Sno', '2015003'
+Took 0.0062 seconds
+hbase:047:0> put 'lab3_shell_SC', '2015003_123002', 'info:SC_Cno', '123002'
+Took 0.0023 seconds
+hbase:048:0> put 'lab3_shell_SC', '2015003_123002', 'info:SC_Score', '95'
+Took 0.0046 seconds
+hbase:049:0> list
+TABLE
+lab3_java_Course
+lab3_java_SC
+lab3_java_Scratch
+lab3_java_Student
+lab3_shell_Course
+lab3_shell_SC
+lab3_shell_Student
+7 row(s)
+Took 0.0095 seconds
+=> ["lab3_java_Course", "lab3_java_SC", "lab3_java_Scratch", "lab3_java_Student", "lab3_shell_Course", "lab3_shell_SC", "lab3_shell_Student"]
+hbase:050:0> describe 'lab3_shell_Student'
+Table lab3_shell_Student is ENABLED
+lab3_shell_Student, {TABLE_ATTRIBUTES => {METADATA => {'hbase.store.file-tracker.impl' => 'DEFAULT'}}}
+COLUMN FAMILIES DESCRIPTION
+{NAME => 'info', INDEX_BLOCK_ENCODING => 'NONE', VERSIONS => '1', KEEP_DELETED_CELLS => 'FALSE', DATA_BLOCK_ENCODING => 'NONE', TTL => 'FOREVER', MIN_VERSIONS => '0', REPLICATION_SCOPE => '0', BLOOMFILTER => 'ROW', IN_MEMORY => 'false', COMPRESSION => 'NONE', BLOCKCACHE => 'true', BLOCKSIZE => '65536 B (64KB)'}
+
+1 row(s)
+Quota is disabled
+Took 0.0214 seconds
+hbase:051:0> describe 'lab3_shell_Course'
+Table lab3_shell_Course is ENABLED
+lab3_shell_Course, {TABLE_ATTRIBUTES => {METADATA => {'hbase.store.file-tracker.impl' => 'DEFAULT'}}}
+COLUMN FAMILIES DESCRIPTION
+{NAME => 'info', INDEX_BLOCK_ENCODING => 'NONE', VERSIONS => '1', KEEP_DELETED_CELLS => 'FALSE', DATA_BLOCK_ENCODING => 'NONE', TTL => 'FOREVER', MIN_VERSIONS => '0', REPLICATION_SCOPE => '0', BLOOMFILTER => 'ROW', IN_MEMORY => 'false', COMPRESSION => 'NONE', BLOCKCACHE => 'true', BLOCKSIZE => '65536 B (64KB)'}
+
+1 row(s)
+Quota is disabled
+Took 0.0188 seconds
+hbase:052:0> describe 'lab3_shell_SC'
+Table lab3_shell_SC is ENABLED
+lab3_shell_SC, {TABLE_ATTRIBUTES => {METADATA => {'hbase.store.file-tracker.impl' => 'DEFAULT'}}}
+COLUMN FAMILIES DESCRIPTION
+{NAME => 'info', INDEX_BLOCK_ENCODING => 'NONE', VERSIONS => '1', KEEP_DELETED_CELLS => 'FALSE', DATA_BLOCK_ENCODING => 'NONE', TTL => 'FOREVER', MIN_VERSIONS => '0', REPLICATION_SCOPE => '0', BLOOMFILTER => 'ROW', IN_MEMORY => 'false', COMPRESSION => 'NONE', BLOCKCACHE => 'true', BLOCKSIZE => '65536 B (64KB)'}
+
+1 row(s)
+Quota is disabled
+Took 0.0305 seconds
+hbase:053:0> puts 'SNAPSHOT_BEGIN Student'
+SNAPSHOT_BEGIN Student
+hbase:054:0> scan 'lab3_shell_Student'
+ROW  COLUMN+CELL
+ Lisi column=info:S_Age, timestamp=2026-10-28T02:24:16.338, value=24
+ Lisi column=info:S_Name, timestamp=2026-10-28T02:24:16.323, value=Lisi
+ Lisi column=info:S_No, timestamp=2026-10-28T02:24:16.320, value=2015003
+ Lisi column=info:S_Sex, timestamp=2026-10-28T02:24:16.330, value=male
+ Mary column=info:S_Age, timestamp=2026-10-28T02:24:16.317, value=22
+ Mary column=info:S_Name, timestamp=2026-10-28T02:24:16.311, value=Mary
+ Mary column=info:S_No, timestamp=2026-10-28T02:24:16.308, value=2015003
+ Mary column=info:S_Sex, timestamp=2026-10-28T02:24:16.313, value=female
+ Zhangsan column=info:S_Age, timestamp=2026-10-28T02:24:16.304, value=23
+ Zhangsan column=info:S_Name, timestamp=2026-10-28T02:24:16.294, value=Zhangsan
+ Zhangsan column=info:S_No, timestamp=2026-10-28T02:24:16.286, value=2015001
+ Zhangsan column=info:S_Sex, timestamp=2026-10-28T02:24:16.301, value=male
+3 row(s)
+Took 0.0262 seconds
+hbase:055:0> puts 'SNAPSHOT_END Student'
+SNAPSHOT_END Student
+hbase:056:0> count 'lab3_shell_Student'
+3 row(s)
+Took 0.0143 seconds
+=> 3
+hbase:057:0> puts 'SNAPSHOT_BEGIN Course'
+SNAPSHOT_BEGIN Course
+hbase:058:0> scan 'lab3_shell_Course'
+ROW  COLUMN+CELL
+ 123001 column=info:C_Credit, timestamp=2026-10-28T02:24:17.524, value=2.0
+ 123001 column=info:C_Name, timestamp=2026-10-28T02:24:17.517, value=Math
+ 123001 column=info:C_No, timestamp=2026-10-28T02:24:17.505, value=123001
+ 123002 column=info:C_Credit, timestamp=2026-10-28T02:24:17.544, value=5.0
+ 123002 column=info:C_Name, timestamp=2026-10-28T02:24:17.540, value=Computer Science
+ 123002 column=info:C_No, timestamp=2026-10-28T02:24:17.530, value=123002
+ 123003 column=info:C_Credit, timestamp=2026-10-28T02:24:17.559, value=3.0
+ 123003 column=info:C_Name, timestamp=2026-10-28T02:24:17.552, value=English
+ 123003 column=info:C_No, timestamp=2026-10-28T02:24:17.548, value=123003
+3 row(s)
+Took 0.0066 seconds
+hbase:059:0> puts 'SNAPSHOT_END Course'
+SNAPSHOT_END Course
+hbase:060:0> count 'lab3_shell_Course'
+3 row(s)
+Took 0.0024 seconds
+=> 3
+hbase:061:0> puts 'SNAPSHOT_BEGIN SC'
+SNAPSHOT_BEGIN SC
+hbase:062:0> scan 'lab3_shell_SC'
+ROW  COLUMN+CELL
+ 2015001_123001 column=info:SC_Cno, timestamp=2026-10-28T02:24:18.702, value=123001
+ 2015001_123001 column=info:SC_Score, timestamp=2026-10-28T02:24:18.706, value=86
+ 2015001_123001 column=info:SC_Sno, timestamp=2026-10-28T02:24:18.697, value=2015001
+ 2015001_123003 column=info:SC_Cno, timestamp=2026-10-28T02:24:18.713, value=123003
+ 2015001_123003 column=info:SC_Score, timestamp=2026-10-28T02:24:18.720, value=69
+ 2015001_123003 column=info:SC_Sno, timestamp=2026-10-28T02:24:18.709, value=2015001
+ 2015002_123002 column=info:SC_Cno, timestamp=2026-10-28T02:24:18.727, value=123002
+ 2015002_123002 column=info:SC_Score, timestamp=2026-10-28T02:24:18.732, value=77
+ 2015002_123002 column=info:SC_Sno, timestamp=2026-10-28T02:24:18.724, value=2015002
+ 2015002_123003 column=info:SC_Cno, timestamp=2026-10-28T02:24:18.737, value=123003
+ 2015002_123003 column=info:SC_Score, timestamp=2026-10-28T02:24:18.742, value=99
+ 2015002_123003 column=info:SC_Sno, timestamp=2026-10-28T02:24:18.734, value=2015002
+ 2015003_123001 column=info:SC_Cno, timestamp=2026-10-28T02:24:18.752, value=123001
+ 2015003_123001 column=info:SC_Score, timestamp=2026-10-28T02:24:18.757, value=98
+ 2015003_123001 column=info:SC_Sno, timestamp=2026-10-28T02:24:18.748, value=2015003
+ 2015003_123002 column=info:SC_Cno, timestamp=2026-10-28T02:24:18.768, value=123002
+ 2015003_123002 column=info:SC_Score, timestamp=2026-10-28T02:24:18.772, value=95
+ 2015003_123002 column=info:SC_Sno, timestamp=2026-10-28T02:24:18.761, value=2015003
+6 row(s)
+Took 0.0073 seconds
+hbase:063:0> puts 'SNAPSHOT_END SC'
+SNAPSHOT_END SC
+hbase:064:0> count 'lab3_shell_SC'
+6 row(s)
+Took 0.0024 seconds
+=> 6
+hbase:065:0> disable 'lab3_shell_Scratch' if exists 'lab3_shell_Scratch'
+Table lab3_shell_Scratch does not exist
+Took 0.0030 seconds
+hbase:066:0> drop 'lab3_shell_Scratch' if exists 'lab3_shell_Scratch'
+Table lab3_shell_Scratch does not exist
+Took 0.0017 seconds
+hbase:067:0> create 'lab3_shell_Scratch', 'info', 'Score'
+Created table lab3_shell_Scratch
+Took 1.1186 seconds
+=> Hbase::Table - lab3_shell_Scratch
+hbase:068:0> put 'lab3_shell_Scratch', 'Zhangsan', 'info:name', 'Zhangsan'
+Took 0.0131 seconds
+hbase:069:0> put 'lab3_shell_Scratch', 'Mary', 'info:name', 'Mary'
+Took 0.0045 seconds
+hbase:070:0> put 'lab3_shell_Scratch', 'Zhangsan', 'Score:Math', '86'
+Took 0.0035 seconds
+hbase:071:0> put 'lab3_shell_Scratch', 'Zhangsan', 'Score:Computer Science', '77'
+Took 0.0018 seconds
+hbase:072:0> put 'lab3_shell_Scratch', 'Zhangsan', 'Score:English', '69'
+Took 0.0020 seconds
+hbase:073:0> puts 'SHELL_CHECK family_scan'
+SHELL_CHECK family_scan
+hbase:074:0> scan 'lab3_shell_Scratch', {COLUMNS => 'Score'}
+ROW  COLUMN+CELL
+ Zhangsan column=Score:Computer Science, timestamp=2026-10-28T02:24:20.111, value=77
+ Zhangsan column=Score:English, timestamp=2026-10-28T02:24:20.114, value=69
+ Zhangsan column=Score:Math, timestamp=2026-10-28T02:24:20.106, value=86
+1 row(s)
+Took 0.0020 seconds
+hbase:075:0> puts 'SHELL_CHECK single_scan'
+SHELL_CHECK single_scan
+hbase:076:0> scan 'lab3_shell_Scratch', {COLUMNS => 'Score:Math'}
+ROW  COLUMN+CELL
+ Zhangsan column=Score:Math, timestamp=2026-10-28T02:24:20.106, value=86
+1 row(s)
+Took 0.0030 seconds
+hbase:077:0> puts 'SHELL_CHECK missing_is_zero_cells'
+SHELL_CHECK missing_is_zero_cells
+hbase:078:0> get 'lab3_shell_Scratch', 'Mary', {COLUMN => 'Score:Math'}
+COLUMN  CELL
+0 row(s)
+Took 0.0026 seconds
+hbase:079:0> put 'lab3_shell_Scratch', 'Zhangsan', 'Score:Math', '90'
+Took 0.0029 seconds
+hbase:080:0> puts 'SHELL_CHECK modified_90'
+SHELL_CHECK modified_90
+hbase:081:0> get 'lab3_shell_Scratch', 'Zhangsan', 'Score:Math'
+COLUMN  CELL
+ Score:Math timestamp=2026-10-28T02:24:20.131, value=90
+1 row(s)
+Took 0.0039 seconds
+hbase:082:0> deleteall 'lab3_shell_Scratch', 'Zhangsan', 'Score:English'
+Took 0.0054 seconds
+hbase:083:0> puts 'SHELL_CHECK deleted_column'
+SHELL_CHECK deleted_column
+hbase:084:0> get 'lab3_shell_Scratch', 'Zhangsan', 'Score:English'
+COLUMN  CELL
+0 row(s)
+Took 0.0015 seconds
+hbase:085:0> alter 'lab3_shell_Scratch', NAME => 'extra'
+Updating all regions with the new schema...
+1/1 regions updated.
+Done.
+Took 2.9169 seconds
+hbase:086:0> put 'lab3_shell_Scratch', 'Mary', 'extra:note', 'temporary'
+Took 0.0065 seconds
+hbase:087:0> get 'lab3_shell_Scratch', 'Mary', 'extra:note'
+COLUMN  CELL
+ extra:note timestamp=2026-10-28T02:24:23.073, value=temporary
+1 row(s)
+Took 0.0034 seconds
+hbase:088:0> alter 'lab3_shell_Scratch', NAME => 'extra', METHOD => 'delete'
+Updating all regions with the new schema...
+1/1 regions updated.
+Done.
+Took 2.0282 seconds
+hbase:089:0> puts 'SHELL_CHECK deleted_family'
+SHELL_CHECK deleted_family
+hbase:090:0> describe 'lab3_shell_Scratch'
+Table lab3_shell_Scratch is ENABLED
+lab3_shell_Scratch, {TABLE_ATTRIBUTES => {METADATA => {'hbase.store.file-tracker.impl' => 'DEFAULT'}}}
+COLUMN FAMILIES DESCRIPTION
+{NAME => 'Score', INDEX_BLOCK_ENCODING => 'NONE', VERSIONS => '1', KEEP_DELETED_CELLS => 'FALSE', DATA_BLOCK_ENCODING => 'NONE', TTL => 'FOREVER', MIN_VERSIONS => '0', REPLICATION_SCOPE => '0', BLOOMFILTER => 'ROW', IN_MEMORY => 'false', COMPRESSION => 'NONE', BLOCKCACHE => 'true', BLOCKSIZE => '65536 B (64KB)'}
+
+{NAME => 'info', INDEX_BLOCK_ENCODING => 'NONE', VERSIONS => '1', KEEP_DELETED_CELLS => 'FALSE', DATA_BLOCK_ENCODING => 'NONE', TTL => 'FOREVER', MIN_VERSIONS => '0', REPLICATION_SCOPE => '0', BLOOMFILTER => 'ROW', IN_MEMORY => 'false', COMPRESSION => 'NONE', BLOCKCACHE => 'true', BLOCKSIZE => '65536 B (64KB)'}
+
+2 row(s)
+Quota is disabled
+Took 0.0251 seconds
+hbase:091:0> deleteall 'lab3_shell_Scratch', 'Mary'
+Took 0.0050 seconds
+hbase:092:0> puts 'SHELL_CHECK deleted_row_count_1'
+SHELL_CHECK deleted_row_count_1
+hbase:093:0> count 'lab3_shell_Scratch'
+1 row(s)
+Took 0.0078 seconds
+=> 1
+hbase:094:0> truncate 'lab3_shell_Scratch'
+Truncating 'lab3_shell_Scratch' table (it may take a while):
+Disabling table...
+Truncating table...
+Took 3.2575 seconds
+hbase:095:0> puts 'SHELL_CHECK truncate_count_0'
+SHELL_CHECK truncate_count_0
+hbase:096:0> count 'lab3_shell_Scratch'
+0 row(s)
+Took 0.3823 seconds
+=> 0
+hbase:097:0> put 'lab3_shell_Scratch', 'old', 'info:name', 'old'
+Took 0.0020 seconds
+hbase:098:0> disable 'lab3_shell_Scratch'
+Took 1.1198 seconds
+hbase:099:0> drop 'lab3_shell_Scratch'
+Took 0.1279 seconds
+hbase:100:0> create 'lab3_shell_Scratch', 'info', 'Score'
+Created table lab3_shell_Scratch
+Took 1.1168 seconds
+=> Hbase::Table - lab3_shell_Scratch
+hbase:101:0> puts 'SHELL_CHECK recreate_count_0'
+SHELL_CHECK recreate_count_0
+hbase:102:0> count 'lab3_shell_Scratch'
+0 row(s)
+Took 0.0043 seconds
+=> 0
+hbase:103:0> puts 'HBASE_SHELL_COMPLETED'
+HBASE_SHELL_COMPLETED
+hbase:104:0> exit

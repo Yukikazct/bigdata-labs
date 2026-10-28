@@ -1,0 +1,111 @@
+2026-10-28T02:24:46+00:00
+Linux yuki 7.0.0-38-generic #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:28:02 UTC 2026 aarch64 GNU/Linux
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+Architecture:                            aarch64
+CPU op-mode(s):                          64-bit
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               Apple
+Model name:                              -
+Model:                                   0
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+Stepping:                                0x0
+BogoMIPS:                                48.00
+Flags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint
+L1d cache:                               256 KiB (4 instances)
+L1i cache:                               512 KiB (4 instances)
+L2 cache:                                32 MiB (4 instances)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Vulnerable
+Vulnerability Spectre v1:                Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; CSV2, but not BHB
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+               total        used        free      shared  buff/cache   available
+Mem:           6.2Gi       4.6Gi       809Mi        11Mi       1.1Gi       1.7Gi
+Swap:          4.0Gi        20Ki       4.0Gi
+openjdk version "11.0.32.1" 2026-08-18
+OpenJDK Runtime Environment (build 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu)
+OpenJDK 64-Bit Server VM (build 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu, mixed mode)
+Hadoop 3.3.6
+Source code repository https://github.com/apache/hadoop.git -r 1be78238728da9266a4f88195058f08fd012bf9c
+Compiled by ubuntu on 2023-06-18T08:22Z
+Compiled on platform linux-x86_64
+Compiled with protoc 3.7.1
+From source with checksum 5652179ad55f76cb287d9c633bb53bbd
+This command was run using /usr/local/hadoop/share/hadoop/common/hadoop-common-3.3.6.jar
+HBase 2.5.11-hadoop3
+Source code repository git://buildbox.localdomain/home/apurtell/tmp/RM/hbase revision=505b485e462c9cbd318116155b3e37204469085a
+Compiled by apurtell on Mon Feb 17 17:03:36 PST 2025
+From source with checksum 6332bbda9ee95c46b73d497bdc8a045a611f5f5e97439d4a786fe1df08b2d9748a33f8dce5bcf509cac15bcae1d6bc8de0e40fe890d9c477a165f9aa68df1294
+26/10/28 02:24:48 WARN Utils: Your hostname, yuki resolves to a loopback address: 127.0.1.1; using 192.168.110.130 instead (on interface ens160)
+26/10/28 02:24:48 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 3.5.3
+      /_/
+                        
+Using Scala version 2.12.18, OpenJDK 64-Bit Server VM, 11.0.32.1
+Branch HEAD
+Compiled by user haejoon.lee on 2024-09-09T05:20:05Z
+Revision 32232e9ed33bb16b93ad58cfde8b82e0f07c0970
+Url https://github.com/apache/spark
+Type --help for more information.
+4912 DataNode
+7585 HMaster
+5394 ResourceManager
+7718 HRegionServer
+10247 RunJar
+4712 NameNode
+5739 NodeManager
+12670 Jps
+11998 MRAppMaster
+7454 HQuorumPeer
+5135 SecondaryNameNode
+2026-10-28 02:24:48,411 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Safe mode is OFF
+2026-10-28 02:24:48,886 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-10-28 02:24:48,907 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032
+Total Nodes:1
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+      yuki:44075	        RUNNING	        yuki:8042	                           1
+<configuration>
+ <property><name>hbase.cluster.distributed</name><value>true</value></property>
+ <property><name>hbase.rootdir</name><value>hdfs://localhost:9000/user/yuki/lab3/hbase</value></property>
+ <property><name>hbase.zookeeper.quorum</name><value>localhost</value></property>
+ <property><name>hbase.zookeeper.property.dataDir</name><value>/home/yuki/lab3-pagerank/zookeeper</value></property>
+ <property><name>hbase.tmp.dir</name><value>/home/yuki/lab3-pagerank/hbase-tmp</value></property>
+ <property><name>hbase.wal.provider</name><value>filesystem</value></property>
+</configuration>

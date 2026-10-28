@@ -1,0 +1,14 @@
+{
+  "code/HBaseLab.java": "feea568325bce669638cd8a090d1f5c8d7ec581a36bfe93a9dfe0e68ec0e22a6",
+  "code/PageRankMR.java": "df93c254430791383fd6241a2d23d492f8e392d33fedac93b12581d067451d9f",
+  "code/PageRankSpark.java": "97690096cd3d5b1492c92cc1d519f56f07d1eb1df955866550d590751457a00c",
+  "code/build.sh": "bd71b43b817527e3ff79e5eaadb7827fe1d8288c2999a07c74e97021301c8e57",
+  "code/data/graph.tsv": "1ac0514baf76664a7770bea38d1ac3062edab518ec92aba74bf8e606787b752d",
+  "code/data/relational.json": "12574a16094918d99f0a365d88b580bd2e7179c3ce706d9eb075ff78783bf52e",
+  "code/lab3_commands.rb": "40b658be6979421a9791ef189db589a773db8f8cc9dc07d4655c410a8e190265",
+  "code/prepare_shell.py": "9d8028259a9cbc535b536d9623afc932d106e2db0e6590039eeeb89df4d8047d",
+  "code/run_hbase.sh": "19e1ef17ccd588b496f935d059ae511df04ec6c2666eae854d602675ed6fd3f5",
+  "code/run_pagerank.sh": "6ad4a8d4786c712b1c294177912005873610ae37b8c821ee48565df48dba98d3",
+  "code/setup_services.sh": "b9a89e96fd502041fed01d98ee1dcf1ea2bd2edd233380c3baf8fad4583aab54",
+  "code/verify.py": "9455fe757d6d2fc9a419e3ea2969265f9e16f5d0da10eb522ea1a1053c82f8ad"
+}

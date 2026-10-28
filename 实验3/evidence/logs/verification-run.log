@@ -1,0 +1,98 @@
+{
+  "verified": true,
+  "run_id": "20261028-main",
+  "iterations": 10,
+  "nodes": 10,
+  "unique_edges": 10,
+  "dangling_nodes": [
+    "D",
+    "H",
+    "I"
+  ],
+  "initialization": "1/N",
+  "damping": "0.85",
+  "reference": "60-digit Decimal dense transition matrix",
+  "max_absolute_error_after_10dp": {
+    "mr": "4.63940239027890625000E-11",
+    "spark": "4.63940239027890625000E-11"
+  },
+  "mr_spark_equal_after_10dp": true,
+  "mr_max_raw_error_all_iterations": "1.813826171875E-16",
+  "output_rank_sums": {
+    "mr": "0.9999999998",
+    "spark": "0.9999999998"
+  },
+  "mr_all_iterations_verified": true,
+  "yarn_mr_jobs": [
+    "job_1793153640471_0001",
+    "job_1793153640471_0002",
+    "job_1793153640471_0003",
+    "job_1793153640471_0004",
+    "job_1793153640471_0005",
+    "job_1793153640471_0006",
+    "job_1793153640471_0007",
+    "job_1793153640471_0008",
+    "job_1793153640471_0009",
+    "job_1793153640471_0010",
+    "job_1793153640471_0011",
+    "job_1793153640471_0012"
+  ],
+  "spark_yarn_application": "application_1793153640471_0013",
+  "ranking": [
+    {
+      "page": "C",
+      "rank": "0.2239922651"
+    },
+    {
+      "page": "J",
+      "rank": "0.2089173185"
+    },
+    {
+      "page": "A",
+      "rank": "0.1301704319"
+    },
+    {
+      "page": "D",
+      "rank": "0.1301704319"
+    },
+    {
+      "page": "B",
+      "rank": "0.0900272736"
+    },
+    {
+      "page": "H",
+      "rank": "0.0639673897"
+    },
+    {
+      "page": "F",
+      "rank": "0.0492367226"
+    },
+    {
+      "page": "E",
+      "rank": "0.0345060555"
+    },
+    {
+      "page": "G",
+      "rank": "0.0345060555"
+    },
+    {
+      "page": "I",
+      "rank": "0.0345060555"
+    }
+  ],
+  "hbase": {
+    "verified": true,
+    "java_checks": 20,
+    "source_cells": 39,
+    "java_shell_snapshots_equal": true,
+    "row_counts": {
+      "Student": 3,
+      "Course": 3,
+      "SC": 6
+    },
+    "source_anomalies": [
+      "Mary and Lisi share 2015003",
+      "SC includes missing student ID 2015002"
+    ]
+  }
+}
